@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'merge_strings'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.executables << "merge_strings.rb"
   s.date        = '2013-09-29'
   s.summary     = "merge_strings.rb en.lproj/Localizable.strings ja.lproj/Localizable.strings"
