@@ -4,6 +4,12 @@ merge_strings
 
 This tiny script is for you, managing Localizable.strings by hand and grouping keys and values by feature or somthing, not alphabetcally order nor new one added to the end of the files.
 
+Install
+-------
+
+    gem install merge_strings
+
+
 Example scenario
 ----------------
 
