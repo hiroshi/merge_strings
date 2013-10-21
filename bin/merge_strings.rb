@@ -33,7 +33,7 @@ File.read(other_strings_path).each_line do |line|
   if match = line.match(/"([^"]*)"\s*=\s*"([^"]*)"\s*;(.*)$/)
     key, val, comments = $1, $2, extract_comments($3)
     # puts "#{key} = #{val}"
-    other_strings[key] = {val: val, comments: comments}
+    other_strings[key] = {:val => val, :comments => comments}
   end
 end
 # Copy base strings file then replace values with other_strings
