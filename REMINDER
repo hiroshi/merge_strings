@@ -1,0 +1,10 @@
+
+How to version up
+-----------------
+1. modify the code
+2. Bump the `version` and `date` in merge_strings.gemspec
+3. Added new version to CHANGELOG
+4. Commit them all with message possible issue number like [#1]
+5. Tag the commit with the version number
+6. gem build merge_strings.gemspec
+7. gem push merge_strings-X-Y-Z.gem
