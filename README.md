@@ -1,8 +1,7 @@
 merge_strings
 =============
 
-
-This tiny script is for you, managing Localizable.strings by hand and grouping keys and values by feature or somthing, not alphabetcally order nor new one added to the end of the files.
+This tiny script is for you, managing Localizable.strings by hand and grouping keys and values like you wish. it does not put everything in alphabetically order and does not simply add everything at the bottom.
 
 Install
 -------
@@ -43,7 +42,7 @@ You added a new feature and added a new localizable key in ja.lproj/Localizable.
     /* Login */
     "Login failed." = "ログインできませんでした。"
 
-Now! Run merge_strings.rb!
+ Run merge_strings.rb!
 
     merge_strings.rb ja.lproj/Localizable.strings en.lproj/Localizable.strings
 
