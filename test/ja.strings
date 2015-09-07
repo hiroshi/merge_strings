@@ -1,0 +1,7 @@
+/* common alerts and dialogs */
+"yes" = "はい"; /* yes button */
+"no" = "いいえ"; /* no button */
+/* Settings */
+"Font size" = "フォントサイズ";
+/* Login */
+"Login failed." = "ログインできませんでした。";

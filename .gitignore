@@ -16,3 +16,6 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# merge_strings
+test/en.strings

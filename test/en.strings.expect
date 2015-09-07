@@ -1,0 +1,7 @@
+/* common alerts and dialogs */
+"yes" = "Yes"; /* yes button */
+"no" = "No"; /* no button */
+/* Settings */
+"Font size" = "Font size"; /* TRANSLATION REQUIRED */
+/* Login */
+"Login failed." = "Login failed.";
