@@ -5,3 +5,6 @@
 "Font size" = "Font size"; /* TRANSLATION REQUIRED */
 /* Login */
 "Login failed." = "Login failed.";
+/* Error */
+"Error Title" = "Error Title"; /* TRANSLATION REQUIRED */
+"Ran into accident" = "\"Dance\" with \"hard luck\"...";
