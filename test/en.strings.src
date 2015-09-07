@@ -3,3 +3,5 @@
 "no" = "No"; /* no button */
 /* Login */
 "Login failed." = "Login failed.";
+/* Error */
+"Ran into accident" = "\"Dance\" with \"hard luck\"...";

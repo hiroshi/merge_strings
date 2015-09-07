@@ -5,3 +5,6 @@
 "Font size" = "フォントサイズ";
 /* Login */
 "Login failed." = "ログインできませんでした。";
+/* Error */
+"Error Title" = "\"！？\"";
+"Ran into accident" = "\"不運\"と\"踊\"っちまったんだよ…";
