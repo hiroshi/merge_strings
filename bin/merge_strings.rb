@@ -31,7 +31,7 @@ translation_required = ARGV[2] || "TRANSLATION REQUIRED"
 other_strings = {} #=> {"key": {val: "...", comments: ["...", "..."]}, ...}
 File.read(other_strings_path).each_line do |line|
   if match = line.match(/"([^"]*)"\s*=\s*"(([^"]|\")*)"\s*;(.*)$/)
-    key, val, comments = $1, $2, extract_comments($3)
+    key, val, comments = $1, $2, extract_comments($4)
     # puts "#{key} = #{val}"
     other_strings[key] = {:val => val, :comments => comments}
   end
@@ -40,7 +40,7 @@ end
 File.open(other_strings_path, "w+") do |other_strings_file|
   File.read(base_strings_path).each_line do |line|
     line.sub!(/"([^"]*)"\s*=\s*"(([^"]|\")*)"\s*;(.*)$/) do |m|
-      key, val, comments = $1, $2, extract_comments($3)
+      key, val, comments = $1, $2, extract_comments($4)
       #puts "#{key} : #{comments}"
       if other = other_strings[key]
         key_value_line(key, other[:val], comments | other[:comments])
