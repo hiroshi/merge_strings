@@ -20,7 +20,7 @@ ja.lproj/Localizable.strings:
     "yes" = "はい"; /* yes button */
     "no" = "いいえ"; /* no button */
     /* Login */
-    "Login failed." = "ログインできませんでした。"
+    "Login failed." = "ログインできませんでした。";
 
 You need to add English as a supported language. It will be OK to copy strings file and modify values for the first time.
 
@@ -30,7 +30,7 @@ en.lproj/Localizable.strings:
     "yes" = "Yes"; /* yes button */
     "no" = "No"; /* no button */
     /* Login */
-    "Login failed." = "Login failed."
+    "Login failed." = "Login failed.";
 
 You added a new feature and added a new localizable key in ja.lproj/Localizable.strings:
 
@@ -40,7 +40,7 @@ You added a new feature and added a new localizable key in ja.lproj/Localizable.
     /* Settings */
     "Font size" = "フォントサイズ";
     /* Login */
-    "Login failed." = "ログインできませんでした。"
+    "Login failed." = "ログインできませんでした。";
 
  Run merge_strings.rb!
 
@@ -54,5 +54,5 @@ You will see in en.lproj/Localizable.strings:
     /* Settings */
     "Font size" = "Font size"; /* TRANSLATION REQUIRED */
     /* Login */
-    "Login failed." = "Login failed."
+    "Login failed." = "Login failed.";
 
