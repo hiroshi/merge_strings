@@ -1,6 +1,6 @@
 .PHONY: all test clean
 
-all: test clean
+all: test
 
 test:
 	cp test/en.strings.src test/en.strings
