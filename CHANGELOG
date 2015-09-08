@@ -1,2 +1,5 @@
+0.0.4
+	Support escaped dobule quotes in value [#4] (by @takasek)
+
 0.0.3
 	ruby 1.8.X support! [#1]
