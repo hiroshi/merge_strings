@@ -1,3 +1,5 @@
+2024-07 Maybe you can use [String Catalog](https://developer.apple.com/jp/videos/play/wwdc2023/10155/) instead.
+
 merge_strings
 =============
 
